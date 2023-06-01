@@ -46,12 +46,6 @@ body {
   cursor: pointer;
 }
 
-#menu.active {
-  float: right;
-  margin-top: 20px;
-  margin-right: 35px;
-}
-
 .bar {
   display: block;
   width: 25px;
