@@ -4,13 +4,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #cac4c4;
-  
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
-  weight: 700;
   margin: 0;
   overflow-x: hidden;
-
 }
 
 .header-nav {
@@ -40,7 +37,6 @@ body {
   transform: scale(1.1);
 }
 
-
 #menu {
   display: block;
   cursor: pointer;
@@ -64,20 +60,18 @@ body {
   display: none;
 }
 
-
-
-
 .flex-container {
-
-
   width: 375px;
   height: 700px;
   margin: 0 auto;
-  background-image: url(/assets/header-shapes-mobile.png);
   background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
   position: relative;
+}
+
+.head-container {
+  background-image: url(assets/header-shapes-mobile.png);
 }
 
 .wrapper {
@@ -85,10 +79,8 @@ body {
   max-width: 1200px;
 }
 
-
-
 .headers {
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -96,7 +88,6 @@ body {
   color: #172b4d;
   padding: 128px 24px 0;
 }
-
 
 .connect {
   font-size: 16px;
@@ -106,7 +97,6 @@ body {
   color: #7f8cff;
   width: 117px;
   height: 24px;
-
 }
 
 .description {
@@ -124,8 +114,3 @@ body {
   list-style-type: none;
   animation: width-change 1s ease-in-out 0.5s 1;
 }
-
-
-
-
-
