@@ -68,10 +68,8 @@ body {
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
   position: relative;
-}
-
-.head-container {
   background-image: url(assets/header-shapes-mobile.png);
+  background-size: cover;
 }
 
 .wrapper {
