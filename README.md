@@ -33,8 +33,6 @@
 
 #  Hello Microverse <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 This project is meant to show my skills as a software developer. 
 
 
@@ -73,8 +71,6 @@ This project is meant to show my skills as a software developer.
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -133,7 +129,6 @@ Open index.html file using live server extension.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] Add more information
 - [ ] Add more styling
