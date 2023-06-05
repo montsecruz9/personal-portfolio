@@ -12,7 +12,6 @@ body {
 
 .header-nav {
   display: flex;
-
   height: 60px;
   background-color: #fff;
   justify-content: center;
