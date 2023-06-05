@@ -12,6 +12,7 @@ body {
 
 .header-nav {
   display: flex;
+
   height: 60px;
   background-color: #fff;
   justify-content: center;
@@ -59,7 +60,7 @@ body {
 }
 
 .flex-container {
-  height: 700px;
+  padding-bottom: 70px;
   background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
