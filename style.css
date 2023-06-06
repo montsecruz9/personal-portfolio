@@ -123,22 +123,14 @@ body {
 }
 
 --CL-primary-blue: rgba(57, 109, 242, 1);
---CL-primary-blue-250: #6070FF;
 
---CL-primary-blue-500: #396df2;
---CL-primary-blue-600: #2230d2;
---CL-primary-gray-300: #7a869a;
---CL-primary-gray-650: #344563;
 --CL-primary-light: rgba(235, 235, 255, 1);
-;
+
 --CL-primary-dark: rgba(23, 43, 77, 1);
 
-
-
-/* Neutral Colors */
 --CL-neutral-white: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 --CL-neutral-white-off: linear-gradient(0deg, #DFE1E6, #DFE1E6);
---CL-neutral-white-off-200: #f7f7f9;
+
 
 
 
@@ -147,7 +139,7 @@ body {
 }
 
 .color-secondary {
-  color: var(--CL-primary-blue-250);
+  color: rgba(57, 109, 242, 1);
 }
 
 .color-info {
