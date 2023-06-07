@@ -66,6 +66,31 @@ body {
   position: relative;
 }
 
+#head-container {
+  background-image: url(assets/background.svg);
+  background-size: 100% 80vh;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 0 0 0 100px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#back_image {
+  height: 100%;
+  background: url(assets/background.svg);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+}
+
 .wrapper {
   min-width: 375px;
   max-width: 1200px;
@@ -100,11 +125,13 @@ body {
 
 .social-media-icons {
   display: flex;
-  gap: 15px;
   margin-left: -15px;
   width: 160px;
   list-style-type: none;
   animation: width-change 1s ease-in-out 0.5s 1;
+  align-items: center;
+  gap: 1.5em;
+  list-style-type: none;
 }
 
 .portfolio {
@@ -118,8 +145,9 @@ body {
   padding: 16px;
   border-radius: 16px;
   gap: 0.25em;
-  border: 1px solid var(--CL-neutral-white-off);
+  
   display: grid;
+  border: 1px solid rgba(223, 225, 230, 1)
 }
 
 --CL-primary-blue: rgba(57, 109, 242, 1);
@@ -228,7 +256,7 @@ body {
 }
 
 .button__primary:disabled {
-  background-color: var(--CL-primary-blue-600);
+  background-color: rgba(57, 109, 242, 1);
   color: linear-gradient(0deg, #fff, #fff);
 }
 
@@ -236,15 +264,12 @@ body {
   padding: 0 1.5em;
 }
 
-.section__white {
-  background-color: var(--CL-neutral-white);
-}
-
-.section__white--top {
+.section_white {
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 0 6em 0 0;
 }
 
-.section__white--bottom {
+.section_white--bottom {
   border-radius: 0 0 0 6em;
 }
 
@@ -278,22 +303,26 @@ body {
   gap: 0.5em;
 }
 
-.about_page__title {
-  font-size: 40px;
-}
 
 .category-about_page {
   padding: 1em;
 }
 
-.about_page__subtitle {
+.about_page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_page_subtitle {
   font-size: 20px;
   font-weight: 500;
 }
 
-.about_page__list {
+.about_page_list {
   gap: 1em;
   margin: 1em 0 0 0;
+  display: grid;
 }
 
 .about_page__item {
@@ -301,18 +330,15 @@ body {
   align-items: center;
   gap: 1em;
   padding: 0.5em;
-  background-color: var(--CL-neutral-white-off-200);
+  background-color: rgba(247, 247, 249, 1);
   border-radius: 8px;
   font-weight: 500;
   font-size: 15px;
 }
 
 @media (min-width: 768px) {
-  .back_image {
-    background-image: url("assets/header-shapes-mobile.png");
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+  #flexbox-head-container {
+    background-image: url("assets/background.svg");
   }
 
   .header-nav {
