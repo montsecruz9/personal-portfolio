@@ -131,7 +131,6 @@ body {
   animation: width-change 1s ease-in-out 0.5s 1;
   align-items: center;
   gap: 1.5em;
-  list-style-type: none;
 }
 
 .portfolio {
@@ -145,9 +144,8 @@ body {
   padding: 16px;
   border-radius: 16px;
   gap: 0.25em;
-  
   display: grid;
-  border: 1px solid rgba(223, 225, 230, 1)
+  border: 1px solid rgba(223, 225, 230, 1);
 }
 
 --CL-primary-blue: rgba(57, 109, 242, 1);
@@ -302,7 +300,6 @@ body {
   padding: 4em 0;
   gap: 0.5em;
 }
-
 
 .category-about_page {
   padding: 1em;
