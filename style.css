@@ -175,7 +175,6 @@ body {
   margin: 0.75em 0;
   display: flex;
   align-items: center;
-  
 }
 
 .portfolio__author {
@@ -189,7 +188,6 @@ body {
   flex-wrap: wrap;
   line-height: 0.001;
   align-items: flex-start;
-  
 }
 
 .portfolio__description {
