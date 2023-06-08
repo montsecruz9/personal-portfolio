@@ -3,7 +3,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+ /*  background-color: #e5e5e5; */
   font-family: Poppins, sans-serif;
   font-style: normal;
   margin: 0;
@@ -13,7 +13,7 @@ body {
 .header-nav {
   display: flex;
   height: 60px;
-  background-color: #fff;
+/*   background-color: #fff; */
   justify-content: center;
   justify-content: space-between;
   align-items: center;
@@ -60,17 +60,17 @@ body {
 
 .flex-container {
   padding-bottom: 70px;
-  background-color: #fff;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
   position: relative;
+ /*  background-color: #fff; */
 }
 
 #head-container {
-  background-image: url(assets/background.svg);
-  background-size: 100% 80vh;
+  background-image: url("assets/header-shapes-mobile.png");
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
   min-height: 100vh;
@@ -79,16 +79,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#back_image {
-  height: 100%;
-  background: url(assets/background.svg);
-  background-size: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: #fff;
 }
 
 .wrapper {
@@ -184,7 +174,6 @@ body {
 }
 
 .portfolio__profile {
-  gap: 2em;
   font-size: 13px;
   margin: 0.75em 0;
   display: flex;
@@ -193,6 +182,7 @@ body {
 
 .portfolio__author {
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
 
 .portfolio__list {
@@ -203,7 +193,6 @@ body {
 }
 
 .portfolio__description {
-  color: var(--CL-primary-gray-300-650);
   font-size: 15px;
   margin: 0 0 1em 0;
 }
@@ -220,7 +209,8 @@ body {
   flex-wrap: wrap;
   margin: 1em 0 0 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 0;
 }
 
 .tag {
@@ -241,6 +231,7 @@ body {
   color: rgba(96, 112, 255, 1);
   letter-spacing: 0.03em;
   align-items: center;
+  text-decoration: none;
 }
 
 .button__primary:hover {
@@ -334,8 +325,9 @@ body {
 }
 
 @media (min-width: 768px) {
+
   #flexbox-head-container {
-    background-image: url("assets/background.svg");
+    background-image: url("../assets/background.svg");
   }
 
   .header-nav {
