@@ -172,10 +172,10 @@ body {
 }
 
 .portfolio__profile {
-  font-size: 13px;
   margin: 0.75em 0;
   display: flex;
   align-items: center;
+  
 }
 
 .portfolio__author {
@@ -188,6 +188,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   line-height: 0.001;
+  align-items: flex-start;
+  
 }
 
 .portfolio__description {
