@@ -3,7 +3,6 @@
 body {
   display: flex;
   flex-direction: column;
- /*  background-color: #e5e5e5; */
   font-family: Poppins, sans-serif;
   font-style: normal;
   margin: 0;
@@ -13,7 +12,8 @@ body {
 .header-nav {
   display: flex;
   height: 60px;
-/*   background-color: #fff; */
+  background-color: #fff;
+
   justify-content: center;
   justify-content: space-between;
   align-items: center;
@@ -63,7 +63,6 @@ body {
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
   position: relative;
- /*  background-color: #fff; */
 }
 
 #head-container {
@@ -325,7 +324,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
   #flexbox-head-container {
     background-image: url("../assets/background.svg");
   }
