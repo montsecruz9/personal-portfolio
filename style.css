@@ -369,7 +369,6 @@ form textarea {
   font-size: 17px;
   color: rgba(96, 112, 255, 1);
   letter-spacing: 0.03em;
-  display: flex;
   flex-direction: row;
   align-items: center;
   text-decoration: none;
