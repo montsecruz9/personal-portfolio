@@ -18,7 +18,7 @@
               <i class="bar"></i>
               <i class="bar"></i>
           </div>
-        </nav>
+        </nav>        
     </header>
 
     <main class="flex-container wrapper">  
@@ -268,13 +268,14 @@
         <section class="contact-form">
           <h2 class="tittle-form">Contact me</h2>
           <p class="info-form">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-          <form action="" method="">
-            <input type="text" name="name" placeholder="Lorem Ipsum" required />
-            <input type="email" placeholder="loremipsum@gmail.com" required />
+            I’d love to help with it!
+          </p>
+          <form class="form" action="https://formspree.io/f/{form_id}" method="post">
+            <input type="text" name="name" placeholder="Lorem Ipsum" required maxlength="30" />
+            <input type="email" placeholder="loremipsum@gmail.com" required maxlength="500"/>
             <textarea required>Write your message here...</textarea>
           </form>
-          <button class="button-form button_primary">Get in touch</button>
+          <button class="button-form">Get in touch</button>
         </section>
       </footer>
     </main>
