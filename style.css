@@ -419,7 +419,7 @@ form textarea {
 @media (min-width: 768px) {
   .head-container {
     background-image: url("../assets/background.svg");
-    backgorund-size: 100%;
+    background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -499,7 +499,7 @@ form textarea {
   form input {
     display: block;
     border-radius: 8px;
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     background: #ffff;
     width: 327px;
     height: 48px;
@@ -510,8 +510,8 @@ form textarea {
   form textarea {
     display: block;
     border-radius: 8px;
-    border: 1px solid #CFD8DC;
-    background: #ffffff;
+    border: 1px solid #cfd8dc;
+    background: #fff;
     margin-top: 18px;
     width: 327px;
     height: 170px;
