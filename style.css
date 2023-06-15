@@ -338,21 +338,7 @@ body {
   text-align: center;
 }
 
-/* .title-form {
-  width: 801px;
-  height: 56px;
-  left: -213px;
-  top: 4734px;
-} */
-
-/* h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-} */
-
-.title-form h2 {
+.title-form {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
