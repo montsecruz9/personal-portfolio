@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 1;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -230,6 +242,7 @@ body {
   letter-spacing: 0.03em;
   align-items: center;
   text-decoration: none;
+  animation: 3s slidein;
 }
 
 .button_primary:hover {
